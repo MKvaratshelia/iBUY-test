@@ -2,7 +2,7 @@
 
 Тестовое задание
 
-## Ссылка на [проект](https://github.com/MKvaratshelia/iBUY-test)
+## Ссылка на [проект](https://mkvaratshelia.github.io/iBUY-test/)
 
 ## Установка.
 
