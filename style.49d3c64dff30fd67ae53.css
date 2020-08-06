@@ -591,6 +591,12 @@ template {
   height: 100vh;
 }
 
+@media screen and (orientation: landscape) {
+  .filter__form {
+    height: 600px;
+  }
+}
+
 .filter__header {
   display: flex;
   height: 35px;
@@ -731,7 +737,7 @@ template {
   right: 0;
   z-index: 100;
   top: 0;
-  height: 100vh;
+
   color: #fff;
 }
 
