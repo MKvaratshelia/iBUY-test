@@ -1,0 +1,22 @@
+.gallery__img {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  size: inherit;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery__img {
+    width: 96px;
+    height: 96px;
+  }
+}

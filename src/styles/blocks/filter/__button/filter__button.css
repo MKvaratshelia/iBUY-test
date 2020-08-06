@@ -1,0 +1,43 @@
+.filter__button {
+  display: flex;
+  margin-bottom: 20px;
+}
+.filter__button input[type="radio"] {
+  display: none;
+}
+
+.filter__button label {
+  width: 96px;
+  height: 40px;
+  color: #ffffff;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.filter__button input[type="radio"]:checked + label {
+  background-color: #979797;
+}
+
+@media screen and (max-width: 500px) {
+  .filter__button label {
+    width: 86px;
+  }
+}
+@media screen and (max-width: 416px) {
+  .filter__button label {
+    width: 70px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .filter__button label {
+    width: 65px;
+    font-size: 12px;
+  }
+}

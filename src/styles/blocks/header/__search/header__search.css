@@ -1,0 +1,15 @@
+.header__search {
+  /* margin-left: 119px; */
+  margin-left: calc(119 / 1080 * 100%);
+}
+
+@media screen and (max-width: 992px) {
+  .header__search {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__search {
+    margin-left: 0px;
+  }
+}

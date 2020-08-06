@@ -1,0 +1,15 @@
+.filter__close-btn {
+  cursor: pointer;
+  transition: opacity ease-out 0.2s;
+}
+
+.filter__close-btn:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 417px) {
+  .filter__close-btn {
+    width: 15px;
+    height: 15px;
+  }
+}

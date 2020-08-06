@@ -1,0 +1,32 @@
+@import "./__logo/header__logo.css";
+@import "./__navbar/header__navbar.css";
+@import "./__navbar-links/header__navbar-links.css";
+@import "./__navbar-link/header__navbar-link.css";
+@import "./__search/header__search.css";
+@import "./__filter-button/header__filter-button.css";
+.header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+@media screen and (max-width: 1079px) {
+  .header {
+    padding: 10px 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    height: 140px;
+  }
+}

@@ -1,0 +1,25 @@
+.header__filter-button {
+  margin-left: 37px;
+  /* margin-left: calc(37 / 1080 * 100%); */
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: opacity ease-out 0.2s;
+}
+
+.header__filter-button:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 992px) {
+  .header__filter-button {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__filter-button {
+    margin-left: 0px;
+    width: 17px;
+    height: 17px;
+  }
+}

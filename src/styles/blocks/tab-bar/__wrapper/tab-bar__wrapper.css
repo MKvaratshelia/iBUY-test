@@ -1,0 +1,28 @@
+.tab-bar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 30px;
+  width: 910px;
+
+  height: 90px;
+  border-radius: 45px;
+  background-color: #222222;
+  padding: 15px 86px;
+}
+
+@media screen and (max-width: 950px) {
+  .tab-bar__wrapper {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tab-bar__wrapper {
+    bottom: 0;
+    border-radius: 0;
+    height: 60px;
+    padding: 16px 20px 14px;
+    width: 100%;
+  }
+}

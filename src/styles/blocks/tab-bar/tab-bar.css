@@ -1,0 +1,10 @@
+@import "./__item/tab-bar__item.css";
+@import "./__wrapper/tab-bar__wrapper.css";
+@import "./__item-title/tab-bar__item-title.css";
+@import "./__item-logo/tab-bar__item-logo.css";
+
+.tab-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

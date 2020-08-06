@@ -1,0 +1,10 @@
+@import "../root/__section/root__section.css";
+
+.root {
+  margin: 0 auto;
+  background-color: #222222;
+  max-width: 1440px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+}
