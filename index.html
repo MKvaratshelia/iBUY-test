@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.4050e7b29341ae211ee4.css" />
+    <title>iBUY</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="main root__section">
+        <!-- Блок Header -->
+        <header class="main__header header">
+          <img
+            class="header__logo"
+            src="./images/logo.png"
+            alt="логотип iBUY"
+            srcset=""
+          />
+          <nav class="header__navbar">
+            <ul class="header__navbar-links">
+              <li class="">
+                <a class="header__navbar-link link button" href="">Top</a>
+              </li>
+              <li class="">
+                <a class="header__navbar-link link button" href="">Painters</a>
+              </li>
+              <li class="">
+                <a class="header__navbar-link link button" href="">Design</a>
+              </li>
+              <li class="">
+                <a class="header__navbar-link link button" href="">Tags</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="search header__search">
+            <picture class="search__image">
+              <source
+                srcset="./images/search_x2@2x.png"
+                media="(max-width: 600px)"
+              />
+              <img
+                class="search__image"
+                src="./images/search_x1.png"
+                alt="иконка лупа"
+              />
+            </picture>
+            <input
+              type="text"
+              value=""
+              class="search__input"
+              placeholder="Search"
+            />
+          </div>
+          <picture>
+            <source
+              srcset="./images/mixer_x2@2x.png"
+              media="(max-width: 600px)"
+            />
+            <img
+              class="header__filter-button"
+              src="./images/mixer_x2@2x.png"
+              alt="иконка фильтра"
+            />
+          </picture>
+        </header>
+        <!-- блок филтр -->
+        <section class="main__filter filter">
+          <form class="filter__form">
+            <div class="filter__header">
+              <h3 class="filter__title">Filter</h3>
+              <picture class="filter__close-btn">
+                <source
+                  srcset="./images/close_x2@2x.png"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  class="filter__close-btn"
+                  src="./images/close_x1.png"
+                  alt="иконка крестик"
+                />
+              </picture>
+            </div>
+            <div class="filter__item">
+              <h3 class="filter__item-title">Price ( $ )</h3>
+              <div class="filter__button-block button-block">
+                <div class="button filter__button">
+                  <input type="radio" name="price" id="price1" />
+                  <label for="price1">0-200</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="price" id="price2" />
+                  <label for="price2">200-400</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="price" id="price3" />
+                  <label for="price3">400-600</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="price" id="price4" />
+                  <label for="price4">more</label>
+                </div>
+              </div>
+            </div>
+            <div class="filter__item">
+              <h3 class="filter__item-title">Shape</h3>
+              <div class="filter__button-block button-block">
+                <div class="button filter__button">
+                  <input type="radio" name="shape" id="shape1" />
+                  <label for="shape1">Circle</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="shape" id="shape2" />
+                  <label for="shape2">Square</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="shape" id="shape3" />
+                  <label for="shape3">Rectangle</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="shape" id="shape4" />
+                  <label for="shape4">Triangle</label>
+                </div>
+              </div>
+            </div>
+            <div class="filter__item">
+              <h3 class="filter__item-title">Size ( Width / Height)</h3>
+              <div class="filter__button-block button-block">
+                <div class="button filter__button">
+                  <input type="radio" name="width" id="width1" />
+                  <label for="width1">0-200</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="width" id="width2" />
+                  <label for="width2">200-400</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="width" id="width3" />
+                  <label for="width3">400-600</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="width" id="width-more" />
+                  <label for="width-more">more</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="height" id="height1" />
+                  <label for="height1">0-200</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="height" id="height2" />
+                  <label for="height2">200-400</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="height" id="height3" />
+                  <label for="height3">400-600</label>
+                </div>
+                <div class="button filter__button">
+                  <input type="radio" name="height" id="height-more" />
+                  <label for="height-more">more</label>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="filter__button-apply">Apply</button>
+          </form>
+        </section>
+        <!-- Секция галерея-->
+        <div class="main__gallery gallery root-section">
+          <img
+            class="gallery__img"
+            src="./images/picture1.png"
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+          <img
+            class="gallery__img"
+            src=""
+            data-src="./images/picture1.png"
+            alt="картина"
+          />
+        </div>
+
+        <!-- секция tab-bar -->
+        <section class="main__tab-bar tab-bar root-section">
+          <div class="tab-bar__wrapper">
+            <a href="" class="tab-bar__item">
+              <picture>
+                <source
+                  srcset="./images/home@2x.png"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  class="tab-bar__item-logo"
+                  src="./images/home_x1.png"
+                  alt="иконка дом"
+                />
+              </picture>
+              <h5 class="tab-bar__item-title">Feed</h5>
+            </a>
+            <a href="" class="tab-bar__item">
+              <picture>
+                <source
+                  srcset="./images/gallery@x2.png"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  class="tab-bar__item-logo"
+                  src="./images/gallery_x1.png"
+                  alt="иконка галерея"
+                />
+              </picture>
+              <h5 class="tab-bar__item-title">Gallery</h5>
+            </a>
+            <a href="" class="tab-bar__item">
+              <picture>
+                <source
+                  srcset="./images/deals@2x.png"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  class="tab-bar__item-logo"
+                  src="./images/deals_x1.png"
+                  alt="иконка добавить"
+                />
+              </picture>
+              <h5 class="tab-bar__item-title">Deals</h5>
+            </a>
+            <a href="" class="tab-bar__item">
+              <picture>
+                <source
+                  srcset="./images/notify@2x.png"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  class="tab-bar__item-logo"
+                  src="./images/notify_x1.png"
+                  alt="иконка сообщение"
+                />
+              </picture>
+              <h5 class="tab-bar__item-title">Notify</h5>
+            </a>
+            <a href="" class="tab-bar__item">
+              <picture>
+                <source
+                  srcset="./images/user2@2x.png"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  class="tab-bar__item-logo"
+                  src="./images/user.png"
+                  alt="иконка человек"
+                />
+              </picture>
+              <h5 class="tab-bar__item-title">Profile</h5>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="main.d123d24aed85ce40bdb4.js"></script>
+  </body>
+</html>
