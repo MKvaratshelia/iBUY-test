@@ -1,4 +1,11 @@
 .filter__form {
   position: relative;
-  flex: 1;
+  background-color: #1b1b1b;
+  height: 100vh;
+}
+
+@media screen and (orientation: landscape) {
+  .filter__form {
+    height: 600px;
+  }
 }

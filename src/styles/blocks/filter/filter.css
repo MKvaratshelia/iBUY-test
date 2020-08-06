@@ -13,12 +13,12 @@
   flex-direction: column;
   position: absolute;
   max-width: 470px;
-  min-height: 896px;
+
   /* padding: 32px 32px 0 32px; */
   background-color: #1b1b1b;
   right: 0;
   z-index: 100;
   top: 0;
-  height: 100vh;
+
   color: #fff;
 }
