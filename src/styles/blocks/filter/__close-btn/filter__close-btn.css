@@ -1,6 +1,8 @@
 .filter__close-btn {
   cursor: pointer;
   transition: opacity ease-out 0.2s;
+  width: 25px;
+  height: 25px;
 }
 
 .filter__close-btn:hover {
